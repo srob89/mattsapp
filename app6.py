@@ -12,6 +12,9 @@ def set_background():
             color: white;
             padding: 10px;
         }
+        .stText, .stMarkdown, .stRadio, .stCheckbox {
+            color: black;
+        }        
         </style>
     """, unsafe_allow_html=True)
 
