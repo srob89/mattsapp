@@ -9,7 +9,7 @@ def set_background():
         }
         .stTitle {
             background-color: green;
-            color: white;
+            color: white !important;
             padding: 10px;
         }
         </style>
