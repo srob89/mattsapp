@@ -7,18 +7,19 @@ def set_background():
         .stApp {
             background-color: beige;
         }
-        h1 {
+        .stTitle {
             background-color: green;
-            color: white !important;
+            color: white;
             padding: 10px;
         }
         </style>
     """, unsafe_allow_html=True)
 
+# Define the main function for the app
 def main():
-    set_background()  # Set background color
-
-    st.markdown('<h1>Mental Health and Relationship Questionnaire</h1>', unsafe_allow_html=True)
+    set_background()  # Set the background color
+    
+    st.markdown('<h1 class="stTitle">Mental Health and Relationship Questionnaire</h1>', unsafe_allow_html=True)
     
     # Initialize session state
     if 'step' not in st.session_state:
