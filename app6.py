@@ -15,7 +15,7 @@ def set_background():
         </style>
     """, unsafe_allow_html=True)
 
-# Define the main function for the app
+# Define the main function for the appp
 def main():
     set_background()  # Set the background color
     
